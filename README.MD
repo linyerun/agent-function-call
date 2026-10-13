@@ -9,6 +9,7 @@
 │   └── calculator.py        # 工具：四则运算
 ├── .env.example             # 环境变量模板
 └── README.md
+└── requirements.txt         # 项目依赖
 ```
 
 # 配置apiKey
@@ -17,9 +18,13 @@ cp .env.example .env
 ```
 
 # 运行
-```python
-python main.py
+```bash
+pip install -r requirements.txt
 ```
+
+````bash
+python main.py
+````
 
 
 # 测试
